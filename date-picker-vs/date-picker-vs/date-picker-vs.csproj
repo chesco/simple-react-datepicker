@@ -85,6 +85,10 @@
       <HintPath>..\packages\React.Web.2.1.2\lib\net40\React.Web.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="React.Web.Mvc4, Version=2.1.0.0, Culture=neutral, PublicKeyToken=9aed67b161f7db78, processorArchitecture=MSIL">
+      <HintPath>..\packages\React.Web.Mvc4.2.1.2\lib\net40\React.Web.Mvc4.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -192,6 +196,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\datejs.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -200,8 +205,14 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\react\JSXTransformer-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.js" />
+    <Content Include="Scripts\react\react-0.13.1.min.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.js" />
+    <Content Include="Scripts\react\react-with-addons-0.13.1.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\simple-react-datepicker\react-datepicker.css" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -212,6 +223,13 @@
     </Content>
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Scripts\simple-react-datepicker\Calendar.jsx" />
+    <Content Include="Scripts\simple-react-datepicker\DatePicker.jsx" />
+    <Content Include="Scripts\simple-react-datepicker\DateUtilities.jsx" />
+    <Content Include="Scripts\simple-react-datepicker\Month.jsx" />
+    <Content Include="Scripts\simple-react-datepicker\Week.jsx" />
+    <Content Include="Scripts\simple-react-datepicker\WeekHeader.jsx" />
+    <Content Include="Scripts\simple-react-datepicker\Weeks.jsx" />
     <None Include="Views\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

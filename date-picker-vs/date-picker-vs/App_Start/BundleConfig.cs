@@ -30,13 +30,13 @@ namespace date_picker_vs
 
             //this bundle was generated for simple-react-datepicker
             bundles.Add(new BabelBundle("~/bundles/datepicker").Include(
-               "~/Scripts/react-datepicker/DateUtilities.jsx",
-               "~/Scripts/react-datepicker/Week.jsx",
-               "~/Scripts/react-datepicker/Weeks.jsx",
-               "~/Scripts/react-datepicker/WeekHeader.jsx",
-               "~/Scripts/react-datepicker/Month.jsx",
-               "~/Scripts/react-datepicker/Calendar.jsx",
-               "~/Scripts/react-datepicker/DatePicker.jsx"));
+               "~/Scripts/simple-react-datepicker/DateUtilities.jsx",
+               "~/Scripts/simple-react-datepicker/Week.jsx",
+               "~/Scripts/simple-react-datepicker/Weeks.jsx",
+               "~/Scripts/simple-react-datepicker/WeekHeader.jsx",
+               "~/Scripts/simple-react-datepicker/Month.jsx",
+               "~/Scripts/simple-react-datepicker/Calendar.jsx",
+               "~/Scripts/simple-react-datepicker/DatePicker.jsx"));
         }
     }
 }

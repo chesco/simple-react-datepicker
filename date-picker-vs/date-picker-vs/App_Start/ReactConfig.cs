@@ -9,7 +9,7 @@ namespace date_picker_vs
 		public static void Configure()
 		{
             ReactSiteConfiguration.Configuration                
-                .AddScript("~/Scripts/react-datepicker/*.jsx");
+                .AddScript("~/Scripts/simple-react-datepicker/*.jsx");
         }
 	}
 }

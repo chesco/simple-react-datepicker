@@ -8,14 +8,31 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>Simple Datepicker</title>
+
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/datejs.js"></script>
+    <script src="~/Scripts/react/react-0.13.1.js"></script>
     @Scripts.Render("~/bundles/datepicker")
+
+    <link href="~/Scripts/simple-react-datepicker/react-datepicker.css" rel="stylesheet" />
+
 </head>
 <body>
     <div>
-        <div id="DatePickerContainer">
-
-        </div>
+        <div id="DatePickerContainer"></div>
     </div>
+    <script>
+
+        function test() {
+            console.log('test');
+        };
+
+        $(function () {
+            React.render(
+            React.createElement(DatePicker, null),
+            document.getElementById('DatePickerContainer'));
+        });
+    </script>
 </body>
 </html>
